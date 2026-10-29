@@ -1,5 +1,8 @@
 package homework.h05;
-class Solution {
+
+// base
+// https://leetcode.com/problems/longest-common-prefix/
+public class T1 {class Solution {
     public int maxProductDifference(int[] nums) {
         Arrays.sort(nums);
 
@@ -8,7 +11,4 @@ class Solution {
         return nums[n - 1] * nums[n - 2]
              - nums[0] * nums[1];
     }
-}
-// base
-// https://leetcode.com/problems/longest-common-prefix/
-public class T1 {}
+}}
