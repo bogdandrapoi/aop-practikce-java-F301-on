@@ -1,5 +1,8 @@
 package homework.h04;
-class Solution {
+
+// base
+// https://leetcode.com/problems/plus-one/
+public class T1 {class Solution {
     public int hammingDistance(int x, int y) {
         int n = x ^ y;
         int count = 0;
@@ -11,7 +14,4 @@ class Solution {
 
         return count;
     }
-}
-// base
-// https://leetcode.com/problems/plus-one/
-public class T1 {}
+}}
