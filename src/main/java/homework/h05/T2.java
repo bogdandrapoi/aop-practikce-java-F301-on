@@ -1,5 +1,8 @@
 package homework.h05;
-class Solution {
+
+// advanced
+// https://leetcode.com/problems/rotate-image/
+public class T2 {class Solution {
     public int[] sortedSquares(int[] nums) {
         int n = nums.length;
         int[] result = new int[n];
@@ -19,7 +22,4 @@ class Solution {
 
         return result;
     }
-}
-// advanced
-// https://leetcode.com/problems/rotate-image/
-public class T2 {}
+}}
