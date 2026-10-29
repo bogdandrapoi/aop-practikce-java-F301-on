@@ -1,5 +1,8 @@
 package homework.h04;
-class Solution {
+
+// advanced
+// https://leetcode.com/problems/integer-to-roman/
+public class T2 {class Solution {
     public int findComplement(int num) {
         int mask = 0;
         int temp = num;
@@ -11,7 +14,4 @@ class Solution {
 
         return num ^ mask;
     }
-}
-// advanced
-// https://leetcode.com/problems/integer-to-roman/
-public class T2 {}
+}}
