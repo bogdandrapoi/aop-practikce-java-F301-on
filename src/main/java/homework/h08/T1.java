@@ -2,7 +2,7 @@ package homework.h08;
 
 // base
 // https://leetcode.com/problems/palindrome-number/
-public class T8{class Solution {
+public class T1{class Solution {
     public int findMaxConsecutiveOnes(int[] nums) {
         int max = 0;
         int current = 0;
