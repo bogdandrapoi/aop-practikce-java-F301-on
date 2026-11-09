@@ -4,12 +4,10 @@ package homework.h04;
 // https://leetcode.com/problems/integer-to-roman/
 public class T2 {class Solution {
     public int findComplement(int num) {
-        int mask = 0;
-        int temp = num;
+        int mask = 1;
 
-        while (temp > 0) {
-            mask = (mask << 1) | 1;
-            temp >>= 1;
+        while (mask < num) {
+            mask = mask * 2 + 1;
         }
 
         return num ^ mask;
