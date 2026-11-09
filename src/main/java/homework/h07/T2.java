@@ -2,7 +2,7 @@ package homework.h02;
 
 // base
 // https://leetcode.com/problems/add-binary/
-public class T7 {class Solution {
+public class T1 {class Solution {
     public int numberOfSteps(int num) {
         int count = 0;
 
