@@ -2,7 +2,7 @@ package homework.h02;
 
 // base
 // https://leetcode.com/problems/add-binary/
-public class T7 {class Solution {
+public class T1 {class Solution {
 import java.util.ArrayList;
 import java.util.List;
 
